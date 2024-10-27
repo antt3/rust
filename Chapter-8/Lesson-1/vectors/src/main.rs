@@ -52,7 +52,7 @@ fn main() {
         // do stuff with v
     } // <- v goes out of scope and is freed here
 
-    let v = vec![1, 2, 3, 4, 5];
+    let mut v = vec![1, 2, 3, 4, 5];
 
     // Testing the pop method
     let five = v.pop();
